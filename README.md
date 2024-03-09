@@ -62,10 +62,10 @@
 
 	data-pdf - это порядковый номер файла, размещенного, например в 13 ресурсе. Если на странице необходимо загрузить в модальное окно разные pdf-файлы, то ссылки необходимо размещать по аналогии:
 	
-	<a href="#" class="link-get-pdf" data-id="13" data-pdf="1" title="Просмотреть PDF">Просмотреть pdf c 13 ресурса 1 порядковый номер</a>
+	<pre><a href="#" class="link-get-pdf" data-id="13" data-pdf="1" title="Просмотреть PDF">Просмотреть pdf c 13 ресурса 1 порядковый номер</a></pre>
 	
-	<a href="#" class="link-get-pdf" data-id="13" data-pdf="2" title="Просмотреть PDF">Просмотреть pdf c 13 ресурса 2 порядковый номер</a>
+	<pre><a href="#" class="link-get-pdf" data-id="13" data-pdf="2" title="Просмотреть PDF">Просмотреть pdf c 13 ресурса 2 порядковый номер</a></pre>
 	.
 	.
 	.
-	<a href="#" class="link-get-pdf" data-id="13" data-pdf="n" title="Просмотреть PDF">Просмотреть pdf c 13 ресурса n порядковый номер</a>
+	<pre><a href="#" class="link-get-pdf" data-id="13" data-pdf="n" title="Просмотреть PDF">Просмотреть pdf c 13 ресурса n порядковый номер</a></pre>
