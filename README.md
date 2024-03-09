@@ -28,36 +28,14 @@
 ```html
    [[pdf? &fileName =`file-name.pdf` &idDiv =`1`]]
 ```
-
-	где:
+где:
 
 	`&fileName` - это имя ПДФ файла на латинице, без пробелов. Например загруженный в директорию doc файл file-name.pdf
 
 	`&idDiv` - это порядковый номер файла (по умолчанию = 1). Если на странице больше одного pdf-файла, то необходимо указать следующие значения:
-	```html
-	[[pdf? &fileName =`file-name-1.pdf` &idDiv =`1`]]
-
-	[[pdf? &fileName =`file-name-2.pdf` &idDiv =`2`]]
-	.
-	.
-	.
-	[[pdf? &fileName =`file-name-n.pdf` &idDiv =`n`]]
 
 
-	Для вызова некэшируемого сниппета
-	[[!pdf?
-		&fileName =`litsenziya-i-prilozheniya.pdf`
-		&idDiv =`1`
-	]]
-
-	Для вызова кэшируемого сниппета
-	[[pdf?
-		&fileName =`litsenziya-i-prilozheniya.pdf`
-		&idDiv =`1`
-	]]
-	```
-
-9. На странице где необходимо вызвать модальное окно с pdf файлом разместите ссылку следующего вида:
+8. На странице где необходимо вызвать модальное окно с pdf файлом разместите ссылку следующего вида:
    ```html
    <a href="#" class="link-get-pdf" data-id="13" data-pdf="1" title="Просмотреть PDF">Просмотреть</a>
    ```
